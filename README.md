@@ -8,6 +8,7 @@ Basic functions
 
 How to run
 --------------------
+ - Import project to your ide that supports java (jdk 1.8+)
  - Start StockRunner main program.
  - To manually input stocks using array, uncomment int[] stocksYesterday
  - In order to auto-generate random stocks with period (minutes from 10AM), uncomment List<Stock> stocksYesterday
