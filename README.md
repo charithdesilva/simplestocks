@@ -12,6 +12,7 @@ How to run
  - Start StockRunner main program.
  - To manually input stocks using array, uncomment int[] stocksYesterday
  - In order to auto-generate random stocks with period (minutes from 10AM), uncomment List<Stock> stocksYesterday
+ - For more verbose generated list, uncomment prints on _StocksGen_
  ```
 public class StockRunner {
 
