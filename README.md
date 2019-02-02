@@ -5,6 +5,7 @@ Basic functions
  - Works out ideal buy index and sell index of historical stock indices.
  - Accept array or list of _Stock_(s).
  - Auto generate stocks mimicking stockAPI.
+ - Specifies the time spent on operations.
 
 How to run
 --------------------
