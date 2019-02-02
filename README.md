@@ -1,1 +1,1 @@
-# simplestocks
+# Simple Stocks App
