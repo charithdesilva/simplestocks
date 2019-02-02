@@ -11,6 +11,9 @@ import java.util.stream.IntStream;
 
 /**
  * Created by charithdesilva on 2/02/2019.
+ *
+ *
+ * This utility class generates stocks, substituted for stockAPI.
  */
 public class StocksGen {
 
