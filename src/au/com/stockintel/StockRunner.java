@@ -1,10 +1,5 @@
 package au.com.stockintel;
 
-import au.com.stockintel.model.Stock;
-import au.com.stockintel.utils.StocksGen;
-
-import java.util.List;
-
 /**
  * Created by charithdesilva on 3/02/2019.
  */
@@ -21,7 +16,7 @@ public class StockRunner {
         // uncomment StocksGen's prints to inspect the lists generated
 
         // Array input
-        int[] stocksYesterday = {10,12,22,2,22,9};
+        int[] stocksYesterday = {10, 12, 22, 2, 22, 9};
 
         // List input (420 = minutes from 10AM - 5PM.)
         //List<Stock> stocksYesterday = StocksGen.generateRandomList(420);

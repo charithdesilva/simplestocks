@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 /**
  * Created by charithdesilva on 2/02/2019.
- *
+ * <p>
  * StockIntelApp accepts either array or list of stocks where
  * the index signifies the time (started from 10AM local time)
  */
@@ -36,13 +36,12 @@ public class StockIntelApp {
         System.out.println("Buying for " + minStock.getStockPrice() + ", and selling for " + maxStock.getStockPrice());
         System.out.println("-------------------------------------------------------------------");
         System.out.println();
-        System.out.println("time spent : "+(new Date().getTime() - startTime) + " milliseconds.");
+        System.out.println("time spent : " + (new Date().getTime() - startTime) + " milliseconds.");
     }
 
     private Stream<Stock> getStockStream(List<Stock> listOfStocks) {
         return listOfStocks.stream().parallel();
     }
-
 
 
 }
