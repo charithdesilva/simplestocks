@@ -40,4 +40,4 @@ public class StockRunner {
 
  Output
  ==========
- ![example movie](https://github.com/charithdesilva/simplestocks/blob/master/Screen.png)
+ ![](https://github.com/charithdesilva/simplestocks/blob/master/Screen.png)
